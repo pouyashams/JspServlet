@@ -1,12 +1,13 @@
-package Service;
+package service;
 
-import DTO.UserDetailsDTO;
+import dto.UserDetailsDTO;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
+import java.util.Map;
 
 public class LoginService {
-    HashMap<String, BigDecimal> users = new HashMap<String, BigDecimal>();
+    Map<String, BigDecimal> users = new HashMap<String, BigDecimal>();
 
     public LoginService() {
         users.put("pouya", BigDecimal.valueOf(1000000));

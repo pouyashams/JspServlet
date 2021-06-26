@@ -1,7 +1,7 @@
-package Servlets;
+package controler;
 
-import DTO.UserDetailsDTO;
-import Service.LoginService;
+import dto.UserDetailsDTO;
+import service.LoginService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<form action="login" method="post">
+<form action="/login" method="post">
     <input type="text" name="user" placeholder="user"/>
     <br><br>
     <input type="password" name="password" placeholder="password"/>
